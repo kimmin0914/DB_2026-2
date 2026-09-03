@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="고객" directorySegmentName="seg_0" id="B908658E-9BD0-1479-8233-E81645E707EA">
+<createdBy>AISW-510-101</createdBy>
+<createdTime>2026-08-27 07:21:16 UTC</createdTime>
+<ownerDesignName>mjkim</ownerDesignName>
+<schemaObject>2203156C-2CBD-7AC9-641B-25032A71B580</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>AC979BDE-A287-0567-F0B4-2BFECCF16116</segment>
+<tableSpace>B4B01580-6E25-EF45-18C3-844D015E4150</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="고객_PK" id="766788B7-EC4B-CC16-3B5A-9C777F9ACB22">
+<createdBy>AISW-510-101</createdBy>
+<createdTime>2026-08-27 07:21:16 UTC</createdTime>
+<ownerDesignName>mjkim</ownerDesignName>
+<schemaObject>2203156C-2CBD-7AC9-641B-25032A71B580</schemaObject>
+<segment>D7FC5D3D-6D9F-42BC-D161-DBC669F10822</segment>
+<tableSpace>B4B01580-6E25-EF45-18C3-844D015E4150</tableSpace>
+<indexSegment>D7FC5D3D-6D9F-42BC-D161-DBC669F10822</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="SYS_C008316" id="86BA71CA-9264-5B5E-7B29-343DBD8574AD">
+<createdBy>AISW-510-101</createdBy>
+<createdTime>2026-08-27 07:21:16 UTC</createdTime>
+<ownerDesignName>mjkim</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="SYS_C008314" id="DA82AFB0-2CC0-1301-6944-34779A9B0B28">
+<createdBy>AISW-510-101</createdBy>
+<createdTime>2026-08-27 07:21:16 UTC</createdTime>
+<ownerDesignName>mjkim</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="SYS_C008315" id="F5BA4905-1259-6C28-EEE9-8F01F27FC2E6">
+<createdBy>AISW-510-101</createdBy>
+<createdTime>2026-08-27 07:21:16 UTC</createdTime>
+<ownerDesignName>mjkim</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev12c>

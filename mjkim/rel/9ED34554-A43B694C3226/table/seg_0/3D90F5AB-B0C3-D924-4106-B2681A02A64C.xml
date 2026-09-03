@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D90F5AB-B0C3-D924-4106-B2681A02A64C" schemaObject="2203156C-2CBD-7AC9-641B-25032A71B580" name="주문">
+<createdBy>AISW-510-101</createdBy>
+<createdTime>2026-08-27 07:21:16 UTC</createdTime>
+<ownerDesignName>mjkim</ownerDesignName>
+<importedID>5A9A6E46-85C2-2804-BE1C-13126852E62D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7D1633A-187E-1B5B-5FF1-BC91173712D1" schemaObject="2203156C-2CBD-7AC9-641B-25032A71B580" name="주문_PK">
+<createdBy>AISW-510-101</createdBy>
+<createdTime>2026-08-27 07:21:16 UTC</createdTime>
+<ownerDesignName>mjkim</ownerDesignName>
+<importedID>7B30CCBE-215A-B790-E242-F8B2C8D0BFA3</importedID>
+<pk>true</pk>
+<indexExpression>주문번호</indexExpression>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="322CBF81-E0B2-0D05-B969-9065C7A50C10" name="SYS_C008323">
+<createdBy>AISW-510-101</createdBy>
+<createdTime>2026-08-27 07:21:16 UTC</createdTime>
+<ownerDesignName>mjkim</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="61F976A2-0CE4-6442-26DB-3134B26D452A" name="SYS_C008324">
+<createdBy>AISW-510-101</createdBy>
+<createdTime>2026-08-27 07:21:16 UTC</createdTime>
+<ownerDesignName>mjkim</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="SYS_C008321" directorySegmentName="seg_0" id="05BD89EF-A7D8-84DC-64E3-39DBB5CE8F4C">
+<createdBy>AISW-510-101</createdBy>
+<createdTime>2026-08-27 07:21:16 UTC</createdTime>
+<ownerDesignName>mjkim</ownerDesignName>
+<importedID>B94C899B-8297-3AD9-B6FB-806CAAE5C3CC</importedID>
+<rule><![CDATA["주문번호" IS NOT NULL]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

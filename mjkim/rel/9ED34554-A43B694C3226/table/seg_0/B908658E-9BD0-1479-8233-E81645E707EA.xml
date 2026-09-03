@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B908658E-9BD0-1479-8233-E81645E707EA" schemaObject="2203156C-2CBD-7AC9-641B-25032A71B580" name="고객">
+<createdBy>AISW-510-101</createdBy>
+<createdTime>2026-08-27 07:21:16 UTC</createdTime>
+<ownerDesignName>mjkim</ownerDesignName>
+<importedID>CD55DC83-1D2A-3A94-393A-BE17F6303D75</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="766788B7-EC4B-CC16-3B5A-9C777F9ACB22" schemaObject="2203156C-2CBD-7AC9-641B-25032A71B580" name="고객_PK">
+<createdBy>AISW-510-101</createdBy>
+<createdTime>2026-08-27 07:21:16 UTC</createdTime>
+<ownerDesignName>mjkim</ownerDesignName>
+<importedID>B7CBC460-E263-7BDB-5438-0BA9DB85A719</importedID>
+<pk>true</pk>
+<indexExpression>고객아이디</indexExpression>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="SYS_C008314" directorySegmentName="seg_0" id="DA82AFB0-2CC0-1301-6944-34779A9B0B28">
+<createdBy>AISW-510-101</createdBy>
+<createdTime>2026-08-27 07:21:16 UTC</createdTime>
+<ownerDesignName>mjkim</ownerDesignName>
+<importedID>D058399D-F3BA-1C8E-84BA-5E0B4139F5BB</importedID>
+<rule><![CDATA["고객아이디" IS NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="SYS_C008315" directorySegmentName="seg_0" id="F5BA4905-1259-6C28-EEE9-8F01F27FC2E6">
+<createdBy>AISW-510-101</createdBy>
+<createdTime>2026-08-27 07:21:16 UTC</createdTime>
+<ownerDesignName>mjkim</ownerDesignName>
+<importedID>6259877E-32CC-F549-0B53-5E72F7D1AD3A</importedID>
+<rule><![CDATA["고객이름" IS NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="SYS_C008316" directorySegmentName="seg_0" id="86BA71CA-9264-5B5E-7B29-343DBD8574AD">
+<createdBy>AISW-510-101</createdBy>
+<createdTime>2026-08-27 07:21:16 UTC</createdTime>
+<ownerDesignName>mjkim</ownerDesignName>
+<importedID>FC1DE312-CAE1-9FDC-B814-AD09FDA2BD58</importedID>
+<rule><![CDATA["등급" IS NOT NULL]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

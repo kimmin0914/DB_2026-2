@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="주문" directorySegmentName="seg_0" id="3D90F5AB-B0C3-D924-4106-B2681A02A64C">
+<createdBy>AISW-510-101</createdBy>
+<createdTime>2026-08-27 07:21:16 UTC</createdTime>
+<ownerDesignName>mjkim</ownerDesignName>
+<schemaObject>2203156C-2CBD-7AC9-641B-25032A71B580</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BFBBE7FF-F6BF-0DA4-1871-F4C1A13587DE</segment>
+<tableSpace>B4B01580-6E25-EF45-18C3-844D015E4150</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008323" id="322CBF81-E0B2-0D05-B969-9065C7A50C10">
+<createdBy>AISW-510-101</createdBy>
+<createdTime>2026-08-27 07:21:16 UTC</createdTime>
+<ownerDesignName>mjkim</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008324" id="61F976A2-0CE4-6442-26DB-3134B26D452A">
+<createdBy>AISW-510-101</createdBy>
+<createdTime>2026-08-27 07:21:16 UTC</createdTime>
+<ownerDesignName>mjkim</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="주문_PK" id="C7D1633A-187E-1B5B-5FF1-BC91173712D1">
+<createdBy>AISW-510-101</createdBy>
+<createdTime>2026-08-27 07:21:16 UTC</createdTime>
+<ownerDesignName>mjkim</ownerDesignName>
+<schemaObject>2203156C-2CBD-7AC9-641B-25032A71B580</schemaObject>
+<segment>0583ED7A-0CFE-B2D3-6828-996618E1E233</segment>
+<tableSpace>B4B01580-6E25-EF45-18C3-844D015E4150</tableSpace>
+<indexSegment>0583ED7A-0CFE-B2D3-6828-996618E1E233</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="SYS_C008321" id="05BD89EF-A7D8-84DC-64E3-39DBB5CE8F4C">
+<createdBy>AISW-510-101</createdBy>
+<createdTime>2026-08-27 07:21:16 UTC</createdTime>
+<ownerDesignName>mjkim</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev12c>

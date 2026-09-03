@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="mjkim" id="4E20B417-56FE-39FC-0B00-9D08884C3FDA" version="3.5">
+<createdBy>AISW-510-101</createdBy>
+<createdTime>2026-08-27 06:20:12 UTC</createdTime>
+<ownerDesignName>mjkim</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4E20B417-56FE-39FC-0B00-9D08884C3FDA</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="1BBA5DF7-0F94-3116-0690-529DD0F6B764">
+<designStoragePath>D:\</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
