@@ -23,6 +23,7 @@ alter table 고객
 -- 테이블 삭제
 drop table 배송업체;
 
+
 -- DML(데이터 조작어)
 -- insert(테이블에 데이터를 삽입)
 
@@ -103,5 +104,4 @@ insert into 주문 values('o06', 'banana', 'p01', 19, '충청북도 보흥군', 
 insert into 주문 values('o07', 'apple', 'p03', 22, '서울시 영등포구', '2026/09/03');
 insert into 주문 values('o08', 'pear', 'p02', 50, '강원도 춘천시', '2026/06/03');
 insert into 주문 values('o09', 'banana', 'p04', 15, '전라남도 목포시', '2026/07/08');
-insert into 주문 values('o010', 'carrot', 'p03', 20, '경기도 안양시', '2026/08/20');
-
+insert into 주문 values('o10', 'carrot', 'p03', 20, '경기도 안양시', '2026/08/20');
