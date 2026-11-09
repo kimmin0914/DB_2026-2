@@ -1,0 +1,723 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" agent="diagrams.net" version="24.7.17">
+  <diagram id="recovery-conceptual-er" name="개념적 E-R 다이어그램">
+    <mxGraphModel dx="1950" dy="1280" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="0" page="1" pageScale="1" pageWidth="1950" pageHeight="1270" math="0" shadow="0" background="#F5F8FC">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="banner" value="" vertex="1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#142B45;strokeColor=none;fontFamily=Malgun Gothic;">
+          <mxGeometry x="50" y="36" width="1825" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="banner-title" value="봉쇄구역 회수반" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=33;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="76" y="47" width="650" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="banner-subtitle" value="개념적 E-R 다이어그램" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=17;fontColor=#BED0E6;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="78" y="88" width="880" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="banner-note" value="사건 · 이동 · 회수 · 결말" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=right;verticalAlign=middle;fontSize=21;fontColor=#E1EBF9;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1415" y="54" width="427" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="CASE_FILE" value="" vertex="1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#95ABC3;strokeWidth=1.35;container=1;collapsible=0;recursiveResize=0;dropTarget=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1050" y="150" width="325" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="CASE_FILE-header" value="" vertex="1" parent="CASE_FILE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#163F63;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="1" width="323" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="CASE_FILE-caption" value="사건" vertex="1" parent="CASE_FILE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=20;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="13" y="3" width="299" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CASE_FILE-identifier" value="CASE_FILE" vertex="1" parent="CASE_FILE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#D4E4F2;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="14" y="27" width="297" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="CASE_FILE-row-0" value="" vertex="1" parent="CASE_FILE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FA;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="48" width="323" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CASE_FILE-case_id-key" value="PK" vertex="1" parent="CASE_FILE" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=11;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="9" y="48" width="52" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CASE_FILE-case_id" value="&lt;u&gt;case_id&lt;/u&gt;" vertex="1" parent="CASE_FILE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="48" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CASE_FILE-case_id-description" value="사건 ID" vertex="1" parent="CASE_FILE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="48" width="106" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CASE_FILE-title" value="title" vertex="1" parent="CASE_FILE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="72" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CASE_FILE-title-description" value="사건 제목" vertex="1" parent="CASE_FILE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="72" width="106" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CASE_FILE-row-2" value="" vertex="1" parent="CASE_FILE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FA;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="96" width="323" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CASE_FILE-briefing" value="briefing" vertex="1" parent="CASE_FILE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="96" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CASE_FILE-briefing-description" value="사건 개요" vertex="1" parent="CASE_FILE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="96" width="106" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE" value="" vertex="1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#95ABC3;strokeWidth=1.35;container=1;collapsible=0;recursiveResize=0;dropTarget=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="50" y="440" width="315" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE-header" value="" vertex="1" parent="PASSAGE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#163F63;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="1" width="313" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE-title" value="통로" vertex="1" parent="PASSAGE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=20;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="13" y="3" width="289" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE-identifier" value="PASSAGE" vertex="1" parent="PASSAGE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#D4E4F2;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="14" y="27" width="287" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE-row-0" value="" vertex="1" parent="PASSAGE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FA;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="48" width="313" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE-case_id-key" value="PK/FK" vertex="1" parent="PASSAGE" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=11;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="9" y="48" width="52" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE-case_id" value="&lt;u&gt;case_id&lt;/u&gt;" vertex="1" parent="PASSAGE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="48" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE-case_id-description" value="사건 ID" vertex="1" parent="PASSAGE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="48" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE-passage_no-key" value="PK" vertex="1" parent="PASSAGE" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=11;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="9" y="72" width="52" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE-passage_no" value="&lt;u&gt;passage_no&lt;/u&gt;" vertex="1" parent="PASSAGE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="72" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE-passage_no-description" value="통로 번호" vertex="1" parent="PASSAGE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="72" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE-row-2" value="" vertex="1" parent="PASSAGE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FA;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="96" width="313" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE-passage_name" value="passage_name" vertex="1" parent="PASSAGE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="96" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE-passage_name-description" value="통로 이름" vertex="1" parent="PASSAGE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="96" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE-from_area_no-key" value="FK" vertex="1" parent="PASSAGE" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=11;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="9" y="120" width="52" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE-from_area_no" value="from_area_no" vertex="1" parent="PASSAGE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="120" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE-from_area_no-description" value="출발 구역 번호" vertex="1" parent="PASSAGE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="120" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE-row-4" value="" vertex="1" parent="PASSAGE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FA;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="144" width="313" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE-to_area_no-key" value="FK" vertex="1" parent="PASSAGE" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=11;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="9" y="144" width="52" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE-to_area_no" value="to_area_no" vertex="1" parent="PASSAGE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="144" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE-to_area_no-description" value="도착 구역 번호" vertex="1" parent="PASSAGE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="144" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE-min_free_hands" value="min_free_hands" vertex="1" parent="PASSAGE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="168" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE-min_free_hands-description" value="필요 빈손 수" vertex="1" parent="PASSAGE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="168" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE-row-6" value="" vertex="1" parent="PASSAGE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FA;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="192" width="313" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE-requires_power" value="requires_power" vertex="1" parent="PASSAGE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="192" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PASSAGE-requires_power-description" value="전력 필요 여부" vertex="1" parent="PASSAGE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="192" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="AREA" value="" vertex="1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#95ABC3;strokeWidth=1.35;container=1;collapsible=0;recursiveResize=0;dropTarget=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="550" y="430" width="315" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="AREA-header" value="" vertex="1" parent="AREA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#163F63;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="1" width="313" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="AREA-title" value="구역" vertex="1" parent="AREA" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=20;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="13" y="3" width="289" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AREA-identifier" value="AREA" vertex="1" parent="AREA" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#D4E4F2;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="14" y="27" width="287" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="AREA-row-0" value="" vertex="1" parent="AREA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FA;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="48" width="313" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="AREA-case_id-key" value="PK/FK" vertex="1" parent="AREA" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=11;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="9" y="48" width="52" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="AREA-case_id" value="&lt;u&gt;case_id&lt;/u&gt;" vertex="1" parent="AREA" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="48" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="AREA-case_id-description" value="사건 ID" vertex="1" parent="AREA" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="48" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="AREA-area_no-key" value="PK" vertex="1" parent="AREA" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=11;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="9" y="72" width="52" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="AREA-area_no" value="&lt;u&gt;area_no&lt;/u&gt;" vertex="1" parent="AREA" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="72" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="AREA-area_no-description" value="구역 번호" vertex="1" parent="AREA" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="72" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="AREA-row-2" value="" vertex="1" parent="AREA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FA;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="96" width="313" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="AREA-area_name" value="area_name" vertex="1" parent="AREA" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="96" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="AREA-area_name-description" value="구역 이름" vertex="1" parent="AREA" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="96" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="AREA-area_type" value="area_type" vertex="1" parent="AREA" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="120" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="AREA-area_type-description" value="구역 유형" vertex="1" parent="AREA" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="120" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="AREA-row-4" value="" vertex="1" parent="AREA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FA;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="144" width="313" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="AREA-map_x" value="map_x" vertex="1" parent="AREA" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="144" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="AREA-map_x-description" value="지도 X 좌표" vertex="1" parent="AREA" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="144" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="AREA-map_y" value="map_y" vertex="1" parent="AREA" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="168" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="AREA-map_y-description" value="지도 Y 좌표" vertex="1" parent="AREA" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="168" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN" value="" vertex="1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#95ABC3;strokeWidth=1.35;container=1;collapsible=0;recursiveResize=0;dropTarget=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1050" y="430" width="325" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN-header" value="" vertex="1" parent="PLAY_RUN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#163F63;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="1" width="323" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN-title" value="플레이 회차" vertex="1" parent="PLAY_RUN" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=20;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="13" y="3" width="299" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN-identifier" value="PLAY_RUN" vertex="1" parent="PLAY_RUN" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#D4E4F2;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="14" y="27" width="297" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN-row-0" value="" vertex="1" parent="PLAY_RUN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FA;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="48" width="323" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN-case_id-key" value="PK/FK" vertex="1" parent="PLAY_RUN" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=11;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="9" y="48" width="52" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN-case_id" value="&lt;u&gt;case_id&lt;/u&gt;" vertex="1" parent="PLAY_RUN" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="48" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN-case_id-description" value="사건 ID" vertex="1" parent="PLAY_RUN" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="48" width="106" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN-run_no-key" value="PK" vertex="1" parent="PLAY_RUN" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=11;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="9" y="72" width="52" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN-run_no" value="&lt;u&gt;run_no&lt;/u&gt;" vertex="1" parent="PLAY_RUN" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="72" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN-run_no-description" value="회차 번호" vertex="1" parent="PLAY_RUN" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="72" width="106" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN-row-2" value="" vertex="1" parent="PLAY_RUN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FA;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="96" width="323" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN-started_at" value="started_at" vertex="1" parent="PLAY_RUN" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="96" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN-started_at-description" value="시작 시각" vertex="1" parent="PLAY_RUN" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="96" width="106" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN-ended_at" value="ended_at" vertex="1" parent="PLAY_RUN" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="120" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN-ended_at-description" value="종료 시각" vertex="1" parent="PLAY_RUN" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="120" width="106" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN-row-4" value="" vertex="1" parent="PLAY_RUN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FA;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="144" width="323" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN-run_status" value="run_status" vertex="1" parent="PLAY_RUN" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="144" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN-run_status-description" value="회차 상태" vertex="1" parent="PLAY_RUN" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="144" width="106" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN-exit_area_no-key" value="FK" vertex="1" parent="PLAY_RUN" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=11;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="9" y="168" width="52" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN-exit_area_no" value="exit_area_no" vertex="1" parent="PLAY_RUN" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="168" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN-exit_area_no-description" value="탈출 구역 번호" vertex="1" parent="PLAY_RUN" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="168" width="106" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN-row-6" value="" vertex="1" parent="PLAY_RUN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FA;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="192" width="323" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN-ending_no-key" value="FK" vertex="1" parent="PLAY_RUN" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=11;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="9" y="192" width="52" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN-ending_no" value="ending_no" vertex="1" parent="PLAY_RUN" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="192" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAY_RUN-ending_no-description" value="결말 번호" vertex="1" parent="PLAY_RUN" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="192" width="106" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING" value="" vertex="1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#95ABC3;strokeWidth=1.35;container=1;collapsible=0;recursiveResize=0;dropTarget=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1560" y="430" width="315" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING-header" value="" vertex="1" parent="ENDING" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60447E;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="1" width="313" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING-title" value="결말" vertex="1" parent="ENDING" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=20;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="13" y="3" width="289" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING-identifier" value="ENDING" vertex="1" parent="ENDING" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#D4E4F2;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="14" y="27" width="287" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING-row-0" value="" vertex="1" parent="ENDING" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FA;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="48" width="313" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING-case_id-key" value="PK/FK" vertex="1" parent="ENDING" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=11;fontColor=#60447E;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="9" y="48" width="52" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING-case_id" value="&lt;u&gt;case_id&lt;/u&gt;" vertex="1" parent="ENDING" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="48" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING-case_id-description" value="사건 ID" vertex="1" parent="ENDING" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="48" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING-ending_no-key" value="PK" vertex="1" parent="ENDING" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=11;fontColor=#60447E;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="9" y="72" width="52" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING-ending_no" value="&lt;u&gt;ending_no&lt;/u&gt;" vertex="1" parent="ENDING" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="72" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING-ending_no-description" value="결말 번호" vertex="1" parent="ENDING" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="72" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING-row-2" value="" vertex="1" parent="ENDING" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FA;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="96" width="313" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING-ending_title" value="ending_title" vertex="1" parent="ENDING" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="96" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING-ending_title-description" value="결말 제목" vertex="1" parent="ENDING" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="96" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING-ending_text" value="ending_text" vertex="1" parent="ENDING" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="120" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING-ending_text-description" value="결말 내용" vertex="1" parent="ENDING" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="120" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING-row-4" value="" vertex="1" parent="ENDING" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FA;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="144" width="313" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING-ending_rank" value="ending_rank" vertex="1" parent="ENDING" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="144" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING-ending_rank-description" value="결말 우선순위" vertex="1" parent="ENDING" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="144" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="EVIDENCE" value="" vertex="1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#95ABC3;strokeWidth=1.35;container=1;collapsible=0;recursiveResize=0;dropTarget=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="550" y="860" width="315" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="EVIDENCE-header" value="" vertex="1" parent="EVIDENCE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#27604F;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="1" width="313" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="EVIDENCE-title" value="증거" vertex="1" parent="EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=20;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="13" y="3" width="289" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EVIDENCE-identifier" value="EVIDENCE" vertex="1" parent="EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#D4E4F2;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="14" y="27" width="287" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="EVIDENCE-row-0" value="" vertex="1" parent="EVIDENCE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FA;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="48" width="313" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="EVIDENCE-case_id-key" value="PK/FK" vertex="1" parent="EVIDENCE" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=11;fontColor=#27604F;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="9" y="48" width="52" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="EVIDENCE-case_id" value="&lt;u&gt;case_id&lt;/u&gt;" vertex="1" parent="EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="48" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="EVIDENCE-case_id-description" value="사건 ID" vertex="1" parent="EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="48" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="EVIDENCE-evidence_no-key" value="PK" vertex="1" parent="EVIDENCE" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=11;fontColor=#27604F;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="9" y="72" width="52" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="EVIDENCE-evidence_no" value="&lt;u&gt;evidence_no&lt;/u&gt;" vertex="1" parent="EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="72" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="EVIDENCE-evidence_no-description" value="증거 번호" vertex="1" parent="EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="72" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="EVIDENCE-row-2" value="" vertex="1" parent="EVIDENCE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FA;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="96" width="313" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="EVIDENCE-area_no-key" value="FK" vertex="1" parent="EVIDENCE" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=11;fontColor=#27604F;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="9" y="96" width="52" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="EVIDENCE-area_no" value="area_no" vertex="1" parent="EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="96" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="EVIDENCE-area_no-description" value="초기 구역 번호" vertex="1" parent="EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="96" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="EVIDENCE-evidence_name" value="evidence_name" vertex="1" parent="EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="120" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="EVIDENCE-evidence_name-description" value="증거 이름" vertex="1" parent="EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="120" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="EVIDENCE-row-4" value="" vertex="1" parent="EVIDENCE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FA;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="144" width="313" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="EVIDENCE-evidence_note" value="evidence_note" vertex="1" parent="EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="144" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="EVIDENCE-evidence_note-description" value="증거 설명" vertex="1" parent="EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="144" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="EVIDENCE-original_hands" value="original_hands" vertex="1" parent="EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="168" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="EVIDENCE-original_hands-description" value="원본 필요 손 수" vertex="1" parent="EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="168" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="EVIDENCE-row-6" value="" vertex="1" parent="EVIDENCE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FA;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="192" width="313" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="EVIDENCE-copy_allowed" value="copy_allowed" vertex="1" parent="EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="192" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="EVIDENCE-copy_allowed-description" value="복사 허용 여부" vertex="1" parent="EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="192" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="RUN_EVIDENCE" value="" vertex="1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#95ABC3;strokeWidth=1.35;container=1;collapsible=0;recursiveResize=0;dropTarget=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1050" y="885" width="325" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="RUN_EVIDENCE-header" value="" vertex="1" parent="RUN_EVIDENCE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#27604F;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="1" width="323" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="RUN_EVIDENCE-title" value="회차 증거" vertex="1" parent="RUN_EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=20;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="13" y="3" width="299" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RUN_EVIDENCE-identifier" value="RUN_EVIDENCE" vertex="1" parent="RUN_EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#D4E4F2;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="14" y="27" width="297" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="RUN_EVIDENCE-row-0" value="" vertex="1" parent="RUN_EVIDENCE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FA;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="48" width="323" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="RUN_EVIDENCE-case_id-key" value="PK/FK" vertex="1" parent="RUN_EVIDENCE" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=11;fontColor=#27604F;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="9" y="48" width="52" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="RUN_EVIDENCE-case_id" value="&lt;u&gt;case_id&lt;/u&gt;" vertex="1" parent="RUN_EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="48" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="RUN_EVIDENCE-case_id-description" value="사건 ID" vertex="1" parent="RUN_EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="48" width="106" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="RUN_EVIDENCE-run_no-key" value="PK/FK" vertex="1" parent="RUN_EVIDENCE" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=11;fontColor=#27604F;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="9" y="72" width="52" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="RUN_EVIDENCE-run_no" value="&lt;u&gt;run_no&lt;/u&gt;" vertex="1" parent="RUN_EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="72" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="RUN_EVIDENCE-run_no-description" value="회차 번호" vertex="1" parent="RUN_EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="72" width="106" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="RUN_EVIDENCE-row-2" value="" vertex="1" parent="RUN_EVIDENCE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FA;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="96" width="323" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="RUN_EVIDENCE-evidence_no-key" value="PK/FK" vertex="1" parent="RUN_EVIDENCE" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=11;fontColor=#27604F;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="9" y="96" width="52" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="RUN_EVIDENCE-evidence_no" value="&lt;u&gt;evidence_no&lt;/u&gt;" vertex="1" parent="RUN_EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="96" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="RUN_EVIDENCE-evidence_no-description" value="증거 번호" vertex="1" parent="RUN_EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="96" width="106" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="RUN_EVIDENCE-recovery_form" value="recovery_form" vertex="1" parent="RUN_EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="120" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="RUN_EVIDENCE-recovery_form-description" value="확정 회수 형태" vertex="1" parent="RUN_EVIDENCE" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="120" width="106" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING_REQUIREMENT" value="" vertex="1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#95ABC3;strokeWidth=1.35;container=1;collapsible=0;recursiveResize=0;dropTarget=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1560" y="885" width="315" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING_REQUIREMENT-header" value="" vertex="1" parent="ENDING_REQUIREMENT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60447E;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="1" width="313" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING_REQUIREMENT-title" value="결말 조건" vertex="1" parent="ENDING_REQUIREMENT" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=20;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="13" y="3" width="289" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING_REQUIREMENT-identifier" value="ENDING_REQUIREMENT" vertex="1" parent="ENDING_REQUIREMENT" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#D4E4F2;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="14" y="27" width="287" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING_REQUIREMENT-row-0" value="" vertex="1" parent="ENDING_REQUIREMENT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FA;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="48" width="313" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING_REQUIREMENT-case_id-key" value="PK/FK" vertex="1" parent="ENDING_REQUIREMENT" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=11;fontColor=#60447E;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="9" y="48" width="52" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING_REQUIREMENT-case_id" value="&lt;u&gt;case_id&lt;/u&gt;" vertex="1" parent="ENDING_REQUIREMENT" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="48" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING_REQUIREMENT-case_id-description" value="사건 ID" vertex="1" parent="ENDING_REQUIREMENT" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="48" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING_REQUIREMENT-ending_no-key" value="PK/FK" vertex="1" parent="ENDING_REQUIREMENT" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=11;fontColor=#60447E;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="9" y="72" width="52" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING_REQUIREMENT-ending_no" value="&lt;u&gt;ending_no&lt;/u&gt;" vertex="1" parent="ENDING_REQUIREMENT" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="72" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING_REQUIREMENT-ending_no-description" value="결말 번호" vertex="1" parent="ENDING_REQUIREMENT" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="72" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING_REQUIREMENT-row-2" value="" vertex="1" parent="ENDING_REQUIREMENT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EFF4FA;strokeColor=none;movable=0;resizable=0;selectable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1" y="96" width="313" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING_REQUIREMENT-evidence_no-key" value="PK/FK" vertex="1" parent="ENDING_REQUIREMENT" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=11;fontColor=#60447E;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="9" y="96" width="52" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING_REQUIREMENT-evidence_no" value="&lt;u&gt;evidence_no&lt;/u&gt;" vertex="1" parent="ENDING_REQUIREMENT" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="96" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING_REQUIREMENT-evidence_no-description" value="증거 번호" vertex="1" parent="ENDING_REQUIREMENT" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="96" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING_REQUIREMENT-required_form" value="required_form" vertex="1" parent="ENDING_REQUIREMENT" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=14;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="65" y="120" width="144" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ENDING_REQUIREMENT-required_form-description" value="요구 회수 형태" vertex="1" parent="ENDING_REQUIREMENT" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=12;fontColor=#536983;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;movable=0;resizable=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="211" y="120" width="96" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-case-area" value="구역 구성" vertex="1" parent="1" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontStyle=1;fontColor=#163F63;fillColor=#E7EFFA;strokeColor=#6F90B4;strokeWidth=1.4;fontFamily=Malgun Gothic;">
+          <mxGeometry x="655.5" y="322" width="104" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-case-area-source" edge="1" source="CASE_FILE" target="relationship-case-area" parent="1" style="noEdgeStyle=1;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#50708E;strokeWidth=1.7;exitX=0;exitY=0.48360655737704916;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="707.5" y="209" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relationship-case-area-target" edge="1" source="relationship-case-area" target="AREA" parent="1" style="noEdgeStyle=1;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#50708E;strokeWidth=1.7;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-case-area-cardinality-source" value="1" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=14;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;labelBackgroundColor=#F5F8FC;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1001" y="186" width="37" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-case-area-cardinality-target" value="N" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=14;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;labelBackgroundColor=#F5F8FC;fontFamily=Malgun Gothic;">
+          <mxGeometry x="714" y="396" width="37" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-case-run" value="회차 시작" vertex="1" parent="1" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontStyle=1;fontColor=#163F63;fillColor=#E7EFFA;strokeColor=#6F90B4;strokeWidth=1.4;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1160.5" y="322" width="104" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-case-run-source" edge="1" source="CASE_FILE" target="relationship-case-run" parent="1" style="noEdgeStyle=1;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#50708E;strokeWidth=1.7;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-case-run-target" edge="1" source="relationship-case-run" target="PLAY_RUN" parent="1" style="noEdgeStyle=1;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#50708E;strokeWidth=1.7;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-case-run-cardinality-source" value="1" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=14;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;labelBackgroundColor=#F5F8FC;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1218" y="284" width="37" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-case-run-cardinality-target" value="N" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=14;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;labelBackgroundColor=#F5F8FC;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1218" y="396" width="37" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-case-ending" value="결말 정의" vertex="1" parent="1" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontStyle=1;fontColor=#163F63;fillColor=#E7EFFA;strokeColor=#6F90B4;strokeWidth=1.4;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1665.5" y="322" width="104" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-case-ending-source" edge="1" source="CASE_FILE" target="relationship-case-ending" parent="1" style="noEdgeStyle=1;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#50708E;strokeWidth=1.7;exitX=1;exitY=0.48360655737704916;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1717.5" y="209" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relationship-case-ending-target" edge="1" source="relationship-case-ending" target="ENDING" parent="1" style="noEdgeStyle=1;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#50708E;strokeWidth=1.7;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-case-ending-cardinality-source" value="1" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=14;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;labelBackgroundColor=#F5F8FC;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1381" y="186" width="37" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-case-ending-cardinality-target" value="N" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=14;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;labelBackgroundColor=#F5F8FC;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1724" y="396" width="37" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-passage-from" value="출발" vertex="1" parent="1" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontStyle=1;fontColor=#163F63;fillColor=#E7EFFA;strokeColor=#6F90B4;strokeWidth=1.4;fontFamily=Malgun Gothic;">
+          <mxGeometry x="405.5" y="464" width="104" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-passage-from-source" edge="1" source="AREA" target="relationship-passage-from" parent="1" style="noEdgeStyle=1;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#50708E;strokeWidth=1.7;exitX=0;exitY=0.30927835051546393;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-passage-from-target" edge="1" source="relationship-passage-from" target="PASSAGE" parent="1" style="noEdgeStyle=1;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#50708E;strokeWidth=1.7;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.22935779816513763;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-passage-from-cardinality-source" value="1" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=14;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;labelBackgroundColor=#F5F8FC;fontFamily=Malgun Gothic;">
+          <mxGeometry x="510" y="467" width="37" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-passage-from-cardinality-target" value="N" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=14;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;labelBackgroundColor=#F5F8FC;fontFamily=Malgun Gothic;">
+          <mxGeometry x="368" y="467" width="37" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-passage-to" value="도착" vertex="1" parent="1" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontStyle=1;fontColor=#163F63;fillColor=#E7EFFA;strokeColor=#6F90B4;strokeWidth=1.4;fontFamily=Malgun Gothic;">
+          <mxGeometry x="405.5" y="549" width="104" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-passage-to-source" edge="1" source="AREA" target="relationship-passage-to" parent="1" style="noEdgeStyle=1;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#50708E;strokeWidth=1.7;exitX=0;exitY=0.7474226804123711;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-passage-to-target" edge="1" source="relationship-passage-to" target="PASSAGE" parent="1" style="noEdgeStyle=1;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#50708E;strokeWidth=1.7;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.6192660550458715;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-passage-to-cardinality-source" value="1" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=14;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;labelBackgroundColor=#F5F8FC;fontFamily=Malgun Gothic;">
+          <mxGeometry x="510" y="552" width="37" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-passage-to-cardinality-target" value="N" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=14;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;labelBackgroundColor=#F5F8FC;fontFamily=Malgun Gothic;">
+          <mxGeometry x="368" y="552" width="37" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-run-exit" value="탈출 구역" vertex="1" parent="1" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontStyle=1;fontColor=#163F63;fillColor=#E7EFFA;strokeColor=#6F90B4;strokeWidth=1.4;fontFamily=Malgun Gothic;">
+          <mxGeometry x="905.5" y="498" width="104" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-run-exit-source" edge="1" source="AREA" target="relationship-run-exit" parent="1" style="noEdgeStyle=1;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#50708E;strokeWidth=1.7;exitX=1;exitY=0.4845360824742268;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-run-exit-target" edge="1" source="relationship-run-exit" target="PLAY_RUN" parent="1" style="noEdgeStyle=1;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#50708E;strokeWidth=1.7;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.43119266055045874;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-run-exit-cardinality-source" value="0..1" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=14;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;labelBackgroundColor=#F5F8FC;fontFamily=Malgun Gothic;">
+          <mxGeometry x="868" y="501" width="37" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-run-exit-cardinality-target" value="N" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=14;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;labelBackgroundColor=#F5F8FC;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1010" y="501" width="37" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-run-ending" value="결말 선택" vertex="1" parent="1" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontStyle=1;fontColor=#163F63;fillColor=#E7EFFA;strokeColor=#6F90B4;strokeWidth=1.4;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1415.5" y="498" width="104" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-run-ending-source" edge="1" source="ENDING" target="relationship-run-ending" parent="1" style="noEdgeStyle=1;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#50708E;strokeWidth=1.7;exitX=0;exitY=0.5529411764705883;exitPerimeter=0;entryX=1;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-run-ending-target" edge="1" source="relationship-run-ending" target="PLAY_RUN" parent="1" style="noEdgeStyle=1;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#50708E;strokeWidth=1.7;exitX=0;exitY=0.5;exitPerimeter=0;entryX=1;entryY=0.43119266055045874;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-run-ending-cardinality-source" value="0..1" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=14;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;labelBackgroundColor=#F5F8FC;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1521" y="501" width="37" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-run-ending-cardinality-target" value="N" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=14;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;labelBackgroundColor=#F5F8FC;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1377" y="501" width="37" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-area-evidence" value="초기 배치" vertex="1" parent="1" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontStyle=1;fontColor=#163F63;fillColor=#E7EFFA;strokeColor=#6F90B4;strokeWidth=1.4;fontFamily=Malgun Gothic;">
+          <mxGeometry x="655.5" y="718" width="104" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-area-evidence-source" edge="1" source="AREA" target="relationship-area-evidence" parent="1" style="noEdgeStyle=1;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#50708E;strokeWidth=1.7;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-area-evidence-target" edge="1" source="relationship-area-evidence" target="EVIDENCE" parent="1" style="noEdgeStyle=1;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#50708E;strokeWidth=1.7;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-area-evidence-cardinality-source" value="1" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=14;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;labelBackgroundColor=#F5F8FC;fontFamily=Malgun Gothic;">
+          <mxGeometry x="714" y="641" width="37" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-area-evidence-cardinality-target" value="N" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=14;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;labelBackgroundColor=#F5F8FC;fontFamily=Malgun Gothic;">
+          <mxGeometry x="714" y="822" width="37" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-run-recovered" value="회수 기록" vertex="1" parent="1" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontStyle=1;fontColor=#163F63;fillColor=#E7EFFA;strokeColor=#6F90B4;strokeWidth=1.4;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1160.5" y="734" width="104" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-run-recovered-source" edge="1" source="PLAY_RUN" target="relationship-run-recovered" parent="1" style="noEdgeStyle=1;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#50708E;strokeWidth=1.7;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-run-recovered-target" edge="1" source="relationship-run-recovered" target="RUN_EVIDENCE" parent="1" style="noEdgeStyle=1;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#50708E;strokeWidth=1.7;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-run-recovered-cardinality-source" value="1" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=14;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;labelBackgroundColor=#F5F8FC;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1218" y="664" width="37" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-run-recovered-cardinality-target" value="N" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=14;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;labelBackgroundColor=#F5F8FC;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1218" y="847" width="37" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-evidence-recovered" value="대상 증거" vertex="1" parent="1" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontStyle=1;fontColor=#163F63;fillColor=#E7EFFA;strokeColor=#6F90B4;strokeWidth=1.4;fontFamily=Malgun Gothic;">
+          <mxGeometry x="905.5" y="932" width="104" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-evidence-recovered-source" edge="1" source="EVIDENCE" target="relationship-evidence-recovered" parent="1" style="noEdgeStyle=1;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#50708E;strokeWidth=1.7;exitX=1;exitY=0.44954128440366975;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-evidence-recovered-target" edge="1" source="relationship-evidence-recovered" target="RUN_EVIDENCE" parent="1" style="noEdgeStyle=1;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#50708E;strokeWidth=1.7;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-evidence-recovered-cardinality-source" value="1" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=14;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;labelBackgroundColor=#F5F8FC;fontFamily=Malgun Gothic;">
+          <mxGeometry x="868" y="935" width="37" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-evidence-recovered-cardinality-target" value="N" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=14;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;labelBackgroundColor=#F5F8FC;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1010" y="935" width="37" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-ending-condition" value="요구 조건" vertex="1" parent="1" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontStyle=1;fontColor=#163F63;fillColor=#E7EFFA;strokeColor=#6F90B4;strokeWidth=1.4;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1665.5" y="718" width="104" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-ending-condition-source" edge="1" source="ENDING" target="relationship-ending-condition" parent="1" style="noEdgeStyle=1;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#50708E;strokeWidth=1.7;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-ending-condition-target" edge="1" source="relationship-ending-condition" target="ENDING_REQUIREMENT" parent="1" style="noEdgeStyle=1;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#50708E;strokeWidth=1.7;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-ending-condition-cardinality-source" value="1" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=14;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;labelBackgroundColor=#F5F8FC;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1724" y="620" width="37" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-ending-condition-cardinality-target" value="N" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=14;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;labelBackgroundColor=#F5F8FC;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1724" y="847" width="37" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-evidence-condition" value="요구 증거" vertex="1" parent="1" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontStyle=1;fontColor=#163F63;fillColor=#E7EFFA;strokeColor=#6F90B4;strokeWidth=1.4;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1160.5" y="1116" width="104" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-evidence-condition-source" edge="1" source="EVIDENCE" target="relationship-evidence-condition" parent="1" style="noEdgeStyle=1;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#50708E;strokeWidth=1.7;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="707.5" y="1142" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relationship-evidence-condition-target" edge="1" source="relationship-evidence-condition" target="ENDING_REQUIREMENT" parent="1" style="noEdgeStyle=1;rounded=0;html=1;endArrow=none;startArrow=none;strokeColor=#50708E;strokeWidth=1.7;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=1;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1717.5" y="1142" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="relationship-evidence-condition-cardinality-source" value="1" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=14;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;labelBackgroundColor=#F5F8FC;fontFamily=Malgun Gothic;">
+          <mxGeometry x="714" y="1084" width="37" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="relationship-evidence-condition-cardinality-target" value="N" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontSize=14;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;labelBackgroundColor=#F5F8FC;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1724" y="1042" width="37" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="" vertex="1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E7EFFA;strokeColor=#D5E1F0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="50" y="1196" width="1825" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-key" value="PK 기본키  ·  FK 외래키  ·  1 필수 1건  ·  N 여러 건  ·  0..1 없거나 1건" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=15;fontColor=#163F63;fontStyle=1;strokeColor=none;fillColor=none;spacing=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="67" y="1201" width="670" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-recovery" value="탈출 성공 시 회수 확정  ·  회차당 증거 한 건에 회수 형태 한 가지" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=15;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="755" y="1201" width="610" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-ending" value="결말 조건은 모두 충족  ·  높은 우선순위부터 판정" vertex="1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=15;fontColor=#172D46;fontStyle=0;strokeColor=none;fillColor=none;spacing=0;fontFamily=Malgun Gothic;">
+          <mxGeometry x="1375" y="1201" width="480" height="39" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
